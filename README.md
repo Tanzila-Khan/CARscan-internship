@@ -1,8 +1,8 @@
 # CARscan-internship
 
-import the project with "Assignment" name folder in eclipse or spring tool suit.
+#import the project with "Assignment" name folder in eclipse or spring tool suit.
 
-change the mysql database properties in "application.properties" file (which is in "src/main/resources" package)
+#change the mysql database properties in "application.properties" file (which is in "src/main/resources" package)
 
 (spring.datasource.url=jdbc:mysql://localhost:3306/internshala
 spring.datasource.username=root
@@ -14,4 +14,4 @@ here "internshala" is my database name so change it to your database name.(creat
 
 
 
-run the application with "AssignmentApplication.java" file (which is in  "com.carscan.Assignment" package) as a java application.
+#run the application with "AssignmentApplication.java" file (which is in  "com.carscan.Assignment" package) as a java application.
