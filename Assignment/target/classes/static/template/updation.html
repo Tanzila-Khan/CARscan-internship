@@ -1,0 +1,79 @@
+<div class="container">
+<div class="alert alert-danger" role="alert" ng-if="errorMessage">
+{{errorMessage}}
+</div>
+<div class="panel panel-default ">
+<div class="alert alert-success">
+<span class="lead">Register New User</span>
+<p>Please maintain uniqueness of User-Name</p>
+</div>
+<div class="panel-body ">
+<div class="container">
+<form ng-submit="submitUserForm()" name="myForm" class="form-horizontal">
+<div class="row">
+<div class="form-group col-xs-12">
+<label class="col-xs-2 control-lable" for="firstName">
+First Name
+</label>
+<div class="col-xs-7">
+<input type="text" ng-model="user.fname"
+id="uname" class="form-control input-sm" placeholder="Enter first name" />
+</div>
+
+</div>
+</div>
+<div class="row">
+<div class="form-group col-xs-12">
+<label class="col-xs-2 control-lable" for="lastName"> Last Name
+</label>
+<div class="col-xs-7">
+<input type="text" ng-model="user.lname"
+id="address" class="form-control input-sm"placeholder="Enter Last Name." />
+</div>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-xs-12">
+<label class="col-xs-2 control-lable" for="Dob"> Date of Birth
+</label>
+<div class="col-xs-7">
+<input type="date" ng-model="user.dob"
+id="address" class="form-control input-sm"placeholder="Enter  Date of Birth." />
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="form-group col-xs-12">
+<label class="col-xs-2 control-lable" for="City">
+City
+</label>
+<div class="col-xs-7">
+<input type="text" ng-model="user.city"
+id="email" class="form-control input-sm" placeholder="Enter City " />
+</div>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-xs-12">
+<label class="col-xs-2 control-lable" for="mobileNo">
+Mobile number 
+</label>
+<div class="col-xs-7">
+<input type="number" ng-model="user.mobileno"
+id="email" class="form-control input-sm" placeholder="Enter Mobile number" />
+</div>
+</div>
+</div>
+<div class="row">
+<div class="form-actions floatRight">
+<input type="submit" value="Register User" class="btn btn-primary btn-sm">
+
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
